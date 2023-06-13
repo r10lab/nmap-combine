@@ -1,19 +1,3 @@
-# nmap-combine
-# 对nmap扫描后结果进行整合
-#python要求
-python>=3.9
-# 需要把py文件放到nmap扫描结果同目录下
-#运行
-python combine.py
-
-#会自动保存结果到合并.txt
-
-# 需要注意：
-with open('nmap.txt', 'r') as file
-nmap.txt 为nmap扫描保存结果的名称，配合web批量请求.jar使用
-
-
-
 nmap-combine
 
 nmap-combine 是一个用于整合 nmap 扫描结果的工具。它要求使用 Python 3.9 或更高的版本。使用该工具的步骤如下：
